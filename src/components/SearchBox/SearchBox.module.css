@@ -1,0 +1,10 @@
+.formField {
+  margin: 4px 0 15px 0;
+}
+button {
+  margin-top: 20px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}

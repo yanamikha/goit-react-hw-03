@@ -1,0 +1,15 @@
+.errorMessage {
+  color: mediumvioletred;
+  margin-bottom: 15px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.formField {
+  margin-top: 4px;
+}
+button {
+  margin-top: 20px;
+}

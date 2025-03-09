@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  align-content: stretch;
+}
+.formField {
+  margin-top: 10px;
+}
+.button {
+  margin: 20px 0;
+  background-color: yellowgreen;
+}
