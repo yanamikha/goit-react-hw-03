@@ -11,12 +11,6 @@ export default function ContactForm({ onSubmit }) {
         phone: Yup.string().min(5, '*Min length of value is 5').max(50, '*Too Long!').required('*Required')
     });
     return (
-        <>                            
-            <embed
-                  src='blob:http://localhost:3000/2855af18-02f0-4426-b0ab-ef254d9826e5
-                  type="application/pdf"
-                  className="h-[70vh] w-full rounded-b-lg"
-                />
         <Formik
             initialValues={{
                 name: '',
@@ -38,6 +32,5 @@ export default function ContactForm({ onSubmit }) {
                 <button type='submit' >Add contact</button>
             </Form>
         </Formik>
-            </>
     );
 };
